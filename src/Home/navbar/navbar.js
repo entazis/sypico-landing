@@ -1,26 +1,26 @@
 import React from 'react';
+import {Navbar, Nav} from 'react-bootstrap';
+
+import classes from './navbar.module.css';
 
 const navbar = () => {
   return (
-      <nav className={'navbar navbar-expand-md navbar-dark'}>
-        <div className={'container-fluid'}>
-          <a className="navbar-brand" href="/">
-            <img className="black-logo" alt="logo" />
-          </a>
-          <div id={'navbarMenu'} className={'collapse navbar-collapse'}>
-            <ul className="navbar-nav">
-              <li className="nav-item"><a className="nav-link" href="#home">Home</a></li>
-              <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
-              <li className="nav-item"><a className="nav-link" href="#services">Services</a></li>
-              <li className="nav-item"><a className="nav-link" href="#team">Team</a></li>
-              <li className="nav-item"><a className="nav-link" href="#our-work">Our Work</a></li>
-              <li className="nav-item"><a className="nav-link" href="#testimonials">Testimonials</a></li>
-              <li className="nav-item"><a className="nav-link" href="#contact-us">Contact Us</a></li>
-              <li className="nav-item"><a className="nav-link" href="#careers">Careers</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <Navbar bg="light" expand="lg">
+        <Navbar.Brand href="#home">SyPiCo</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className={['ml-auto', classes.navText]}>
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#home">Services</Nav.Link>
+            <Nav.Link href="#about">Team</Nav.Link>
+            <Nav.Link href="#home">Our Work</Nav.Link>
+            <Nav.Link href="#about">Testimonials</Nav.Link>
+            <Nav.Link href="#home">Contact</Nav.Link>
+            <Nav.Link href="#about">Careers</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
   );
 };
 
