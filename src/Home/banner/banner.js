@@ -1,0 +1,27 @@
+import React from 'react';
+import {Container, Row, Col} from 'react-bootstrap';
+
+import classes from './banner.module.css';
+
+function banner() {
+  return (
+      <div className={classes.banner}>
+        <Container>
+          <Row className={'align-items-center'}>
+            <Col lg={6}>
+              <h1>We're an IT agency</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a className="btn btn-primary" href="/contact/">Get Started</a>
+              <a className="btn btn-secondary" href="#play-video">How it works</a>
+            </Col>
+            <Col lg={6}>
+              <img className={classes.bannerImage} alt={'SyPiCo'}
+                   src={'https://trynext-react.envytheme.com/_next/static/images/animate-banner-img1-6ff206b3106cc8caa8ffe8c01ff8ba44.jpg'}/>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+  );
+}
+
+export default banner;

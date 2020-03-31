@@ -1,16 +1,19 @@
 import React from 'react';
 
 import Navbar from './navbar/navbar';
+import Banner from './banner/banner';
 
 function Home() {
   return (
       <div className={'Home'}>
         <header>
-          <Navbar />
+          <Navbar/>
+          <Banner/>
         </header>
         <main>...</main>
         <footer>...</footer>
-      </div>);
+      </div>
+  );
 }
 
 export default Home;
