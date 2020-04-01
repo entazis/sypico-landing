@@ -12,12 +12,12 @@ const navbar = () => {
           <Nav className={['ml-auto', classes.navText]}>
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#home">Services</Nav.Link>
-            <Nav.Link href="#about">Team</Nav.Link>
-            <Nav.Link href="#home">Our Work</Nav.Link>
-            <Nav.Link href="#about">Testimonials</Nav.Link>
-            <Nav.Link href="#home">Contact</Nav.Link>
-            <Nav.Link href="#about">Careers</Nav.Link>
+            <Nav.Link href="#services">Services</Nav.Link>
+            <Nav.Link href="#team">Team</Nav.Link>
+            <Nav.Link href="#our-work">Our Work</Nav.Link>
+            <Nav.Link href="#testimonials">Testimonials</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#careers">Careers</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
