@@ -1,0 +1,20 @@
+.team {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.sectionTitle {
+    text-align: center;
+    margin: -5px auto 60px;
+    max-width: 720px;
+}
+
+.teamCard {
+    margin-bottom: 30px;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+.teamImg {
+    position: relative;
+}

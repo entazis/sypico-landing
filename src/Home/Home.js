@@ -4,6 +4,8 @@ import Navbar from './navbar/navbar';
 import Banner from './banner/banner';
 import About from './about/about';
 import Services from './services/services';
+import Team from './team/team';
+import OurWork from './our-work/our-work';
 
 function Home() {
   return (
@@ -15,8 +17,8 @@ function Home() {
         <main>
           <About/>
           <Services/>
-          <section>Team</section>
-          <section>Our Work</section>
+          <Team/>
+          <OurWork/>
           <section>Testimonials</section>
           <section>Contact</section>
           <section>Careers</section>
