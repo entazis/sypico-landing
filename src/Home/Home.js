@@ -6,6 +6,9 @@ import About from './about/about';
 import Services from './services/services';
 import Team from './team/team';
 import OurWork from './our-work/our-work';
+import Testimonials from './testimonials/testimonials';
+import Contact from './contact/contact';
+import Careers from './careers/careers';
 
 function Home() {
   return (
@@ -19,9 +22,9 @@ function Home() {
           <Services/>
           <Team/>
           <OurWork/>
-          <section>Testimonials</section>
-          <section>Contact</section>
-          <section>Careers</section>
+          <Testimonials/>
+          <Contact/>
+          <Careers/>
         </main>
         <footer>...</footer>
       </div>
