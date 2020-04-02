@@ -10,15 +10,13 @@ function about() {
           <Row>
             <Col lg={7} md={12}>
               <div className="about-content about-content-two pl-0 mt-0">
-                <div className="section-title"><h2>Why Choose Us</h2><p>Lorem
-                  ipsum dolor sit amet, con se ctetur adipiscing elit. In
-                  sagittis eg esta ante, sed viverra nunc tinci dunt nec elei
-                  fend et tiram.</p></div>
-                <div className="about-text"><h4>Who We Are</h4><p>Sed ut
-                  perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo.</p></div>
+                <div className="section-title">
+                  <h2>About Our Business</h2>
+                  <h4>Automate, keep going and going!</h4>
+                </div>
+                <div className="about-text">
+                  <p>Have you ever wondered how much time you waste on watching parameters several times a day to gather them into reports? Do you get any happier whilst processing data from multiple documents and trying your hardest to combine them in a clearly structured overview? Or even worse, how does it make you feel to browse the same web page over and over again?</p>
+                </div>
                 <div className="about-text"><h4>Our History</h4><p>But I must
                   explain to you how all this mistaken idea of denouncing
                   pleasure and praising pain was born and I will give you a

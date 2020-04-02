@@ -9,8 +9,8 @@ function banner() {
         <Container>
           <Row className={'align-items-center'}>
             <Col lg={6}>
-              <h1>We're an IT agency</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <h1>SyPiCo</h1>
+              <p>Automate - Keep Going and Going!</p>
               <a className="btn btn-primary" href="/contact/">Get Started</a>
               <a className="btn btn-secondary" href="#play-video">How it works</a>
             </Col>

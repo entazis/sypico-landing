@@ -9,7 +9,7 @@ function ourWork() {
         <Container>
           <Row>
             <Col lg={6}>
-              <img className={classes.leftImage}/>
+              <img className={classes.leftImage} src={'https://trynext-react.envytheme.com/_next/static/images/it-service3-e0d514d60a8e95d29c308e081837482a.png'}/>
             </Col>
             <Col lg={6}>
               <div className={classes.infoBlock}>

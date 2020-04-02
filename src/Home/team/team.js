@@ -18,7 +18,7 @@ function team() {
                   <img src="" alt="photo"/>
                 </div>
                 <div className={classes.teamCaption}>
-                  <h3>James White</h3>
+                  <h3>Gabriel Mattys</h3>
                   <p>CEO &amp; Founder</p>
                 </div>
               </div>
