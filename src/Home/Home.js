@@ -22,8 +22,8 @@ function Home() {
           <Banner/>
         </header>
         <main>
-          <About/>
           <Services/>
+          <About/>
           <Team/>
           <OurWork/>
           <Testimonials/>

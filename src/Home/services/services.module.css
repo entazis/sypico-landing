@@ -30,7 +30,7 @@
     -webkit-transition: all 0.6s ease;
     transition: all 0.6s ease;
 
-    background-color: #13c4a1;
+    background-color: #fc3549;
 
     speak: none;
     font-style: normal;
@@ -47,8 +47,4 @@
     font-family: "Saira", sans-serif;
     color: #18181b;
     line-height: 1.2;
-}
-
-.serviceCardOneIcon::before {
-    content: "\E668";
 }

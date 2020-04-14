@@ -12,8 +12,8 @@ function banner() {
               <div className={classes.coverText}>
                 <h1>SyPiCo</h1>
                 <p>Automate - Keep Going and Going!</p>
-                <a className="btn btn-primary" href="/contact/">Get Started</a>
-                <a className="btn btn-secondary" href="#play-video">How it works</a>
+                <a className="btn btn-danger" href="#contact">Get Started</a>
+                <a className="btn btn-secondary" href="#our-work">How it works</a>
               </div>
             </Col>
             <Col lg={6}>
