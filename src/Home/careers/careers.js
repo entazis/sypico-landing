@@ -5,7 +5,7 @@ import {Container, Row, Col, Button} from 'react-bootstrap';
 
 function careers() {
   return (
-      <section className={classes.careers}>
+      <section id='careers' className={classes.careers}>
         <Container>
           <div className={classes.sectionTitle}>
             <h2>We're looking for new talent!</h2>

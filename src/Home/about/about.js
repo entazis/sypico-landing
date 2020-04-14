@@ -5,7 +5,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 
 function about() {
   return (
-      <section className={classes.about}>
+      <section id='about' className={classes.about}>
         <Container>
           <Row>
             <Col lg={7} md={12}>
@@ -32,9 +32,9 @@ function about() {
             <Col lg={5} md={12}>
               <div className="about-image right-image"><img
                   src="https://trynext-react.envytheme.com/_next/static/images/about-img3-83e6128966f2dea570c7aa47ddbf39e5.jpg"
-                  alt="image" className="rounded-10"/>
+                  alt="about" className="rounded-10"/>
                 <div className="video-box">
-                  <a className="video-btn" href="#"></a>
+                  <a className="video-btn" href="#"/>
                 </div>
               </div>
             </Col>

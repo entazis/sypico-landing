@@ -12,7 +12,7 @@ import Careers from './careers/careers';
 
 function Home() {
   return (
-      <div className={'Home'}>
+      <div id='home' className='Home'>
         <header>
           <Navbar/>
           <Banner/>

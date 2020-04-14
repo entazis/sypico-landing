@@ -5,7 +5,7 @@ import {Container, Carousel} from 'react-bootstrap';
 
 function testimonials() {
   return (
-      <section className={classes.testimonials}>
+      <section id='testimonials' className={classes.testimonials}>
         <Container>
           <div className={classes.feedbackList}>
             <div className={classes.quotesIcon}>

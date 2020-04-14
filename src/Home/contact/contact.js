@@ -5,7 +5,7 @@ import {Container} from 'react-bootstrap';
 
 function contact() {
   return (
-      <section className={classes.contact}>
+      <section id='contact' className={classes.contact}>
         <Container>
           <div className={classes.contactInnerArea}>
             <h2>Contact Us</h2>

@@ -5,7 +5,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 
 function services() {
   return (
-      <section className={[classes.services]}>
+      <section id='services' className={[classes.services]}>
         <Container>
           <div className={classes.sectionTitle}>
             <h2>SyPiCo Services</h2>

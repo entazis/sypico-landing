@@ -5,7 +5,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 
 function ourWork() {
   return (
-      <section className={classes.ourWork}>
+      <section id='our-work' className={classes.ourWork}>
         <Container>
           <Row>
             <Col lg={6}>
