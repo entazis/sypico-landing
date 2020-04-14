@@ -12,7 +12,7 @@ import Careers from './careers/careers';
 import Footer from './ui/footer/footer';
 import GoToTop from './ui/go-to-top/go-to-top';
 
-import classes from 'Home.module.css';
+import classes from './Home.module.css';
 
 function Home() {
   return (

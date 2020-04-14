@@ -1,0 +1,17 @@
+.goToTop {
+    position: fixed;
+    cursor: pointer;
+    bottom: 20px;
+    right: 20px;
+    font-size: 35px;
+    color: #ffffff;
+    background-color: #18181b;
+    z-index: 4;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    line-height: 45px;
+    border-radius: 50%;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
