@@ -1,3 +1,33 @@
 .testimonials {
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://previews.123rf.com/images/1stchoice/1stchoice1403/1stchoice140300014/26606208-grey-background-texture.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: black;
+    text-align: center;
+}
 
+.feedbackList {
+
+}
+
+.singleFeedback {
+    text-align: center;
+    max-width: 755px;
+    margin: 0 auto;
+}
+
+.quotesIcon {
+    background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
+    background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    margin-bottom: 35px;
 }
