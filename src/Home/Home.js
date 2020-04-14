@@ -9,10 +9,14 @@ import OurWork from './our-work/our-work';
 import Testimonials from './testimonials/testimonials';
 import Contact from './contact/contact';
 import Careers from './careers/careers';
+import Footer from './ui/footer/footer';
+import GoToTop from './ui/go-to-top/go-to-top';
+
+import classes from 'Home.module.css';
 
 function Home() {
   return (
-      <div id='home' className='Home'>
+      <div id='home' className={classes.Home}>
         <header>
           <Navbar/>
           <Banner/>
@@ -26,7 +30,10 @@ function Home() {
           <Contact/>
           <Careers/>
         </main>
-        <footer>...</footer>
+        <footer>
+          <Footer/>
+        </footer>
+        <GoToTop/>
       </div>
   );
 }

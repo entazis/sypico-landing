@@ -1,0 +1,18 @@
+.footer {
+    background-color: #f6f9fc;
+    padding-top: 100px;
+    position: relative;
+    z-index: 1;
+}
+.getInTouch {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.copyright {
+    background-color: #000000;
+    text-align: center;
+    margin-top: 95px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
