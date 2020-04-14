@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { IoIosArrowDropup } from 'react-icons/all';
 
 import classes from './go-to-top.module.css';
 
@@ -21,7 +22,9 @@ const GoToTop = () => {
   }
 
   return (isVisible && (
-          <div className={classes.goToTop} onClick={() => scrollToTop()}/>
+          <div className={classes.goToTop} onClick={() => scrollToTop()}>
+            <IoIosArrowDropup/>
+          </div>
           )
   )
 };
