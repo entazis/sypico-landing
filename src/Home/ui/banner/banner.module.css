@@ -2,9 +2,13 @@
     text-align: center;
     padding-top: 140px;
     padding-bottom: 100px;
+    background-position: center center;
+    background-image: url(https://previews.123rf.com/images/eugenius777/eugenius7771610/eugenius777161000022/64281467-abstract-futuristic-technology-background-with-gears-in-red-and-yellow-shades-digital-technology-and.jpg);
 }
-
 .bannerImage {
     animation: border-transform 10s linear infinite alternate forwards;
     width: 80%;
+}
+.coverText {
+    color: black;
 }

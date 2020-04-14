@@ -7,12 +7,14 @@ function banner() {
   return (
       <div className={classes.banner}>
         <Container>
-          <Row className={'align-items-center'}>
+          <Row className='align-items-center'>
             <Col lg={6}>
-              <h1>SyPiCo</h1>
-              <p>Automate - Keep Going and Going!</p>
-              <a className="btn btn-primary" href="/contact/">Get Started</a>
-              <a className="btn btn-secondary" href="#play-video">How it works</a>
+              <div className={classes.coverText}>
+                <h1>SyPiCo</h1>
+                <p>Automate - Keep Going and Going!</p>
+                <a className="btn btn-primary" href="/contact/">Get Started</a>
+                <a className="btn btn-secondary" href="#play-video">How it works</a>
+              </div>
             </Col>
             <Col lg={6}>
               <img className={classes.bannerImage} alt={'SyPiCo'}
