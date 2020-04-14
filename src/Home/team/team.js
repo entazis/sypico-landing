@@ -9,39 +9,25 @@ function team() {
         <Container>
           <div className={classes.sectionTitle}>
             <h2>Our Expert Team</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <Row>
-            <Col lg={4} sm={6}>
+            <Col lg={6} sm={6} className='text-center'>
               <div className={classes.teamCard}>
-                <div className={classes.teamImg}>
-                  <img src="" alt="member photo"/>
-                </div>
+                <img alt='Gabriel' className={classes.teamImg} src="https://static.wixstatic.com/media/68e9b9_07077d5bdde141d59b8fcaf85bff8d40~mv2.jpg/v1/fill/w_340,h_340,al_c,q_80,usm_0.66_1.00_0.01/22256423_10213076357396930_9078001381763.webp"/>
                 <div className={classes.teamCaption}>
                   <h3>Gabriel Mattys</h3>
-                  <p>CEO &amp; Founder</p>
+                  <p className={classes.positionTitle}>Business Developer</p>
+                  <p>Gabriel is in charge of the customer relations and business development.</p>
                 </div>
               </div>
             </Col>
-            <Col lg={4} sm={6}>
+            <Col lg={6} sm={6} className='text-center'>
               <div className={classes.teamCard}>
-                <div className={classes.teamImg}>
-                  <img src="" alt="member photo"/>
-                </div>
+                <img alt='Robin' className={classes.teamImg} src="https://static.wixstatic.com/media/68e9b9_afcc11c09c1747cb835ad4a2b59df3fb~mv2.jpg/v1/crop/x_0,y_17,w_375,h_375/fill/w_340,h_340,al_c,q_80,usm_0.66_1.00_0.01/robin.webp"/>
                 <div className={classes.teamCaption}>
-                  <h3>Johnson Lee</h3>
-                  <p>Backend Specialist</p>
-                </div>
-              </div>
-            </Col>
-            <Col lg={{ span: 4, offset: 0 }} sm={{ span: 6, offset: 3 }} >
-              <div className={classes.teamCard}>
-                <div className={classes.teamImg}>
-                  <img src="" alt="member photo"/>
-                </div>
-                <div className={classes.teamCaption}>
-                  <h3>Williams Smith</h3>
-                  <p>Front-end Specialist</p>
+                  <h3>Robin Boudry</h3>
+                  <p className={classes.positionTitle}>Data Analyst</p>
+                  <p>Robin is the analytical guy, with a clear eye for detail. He is ready to help you automate your dull and and monotonous jobs.</p>
                 </div>
               </div>
             </Col>
