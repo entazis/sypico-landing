@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Navbar from './navbar/navbar';
-import Banner from './banner/banner';
+import Navbar from './ui/navbar/navbar';
+import Banner from './ui/banner/banner';
 import About from './about/about';
 import Services from './services/services';
 import Team from './team/team';
