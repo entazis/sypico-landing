@@ -23,10 +23,10 @@ function Home() {
         </header>
         <main>
           <Services/>
-          <About/>
-          <Team/>
           <OurWork/>
+          <Team/>
           <Testimonials/>
+          <About/>
           <Contact/>
           <Careers/>
         </main>
