@@ -1,8 +1,9 @@
 .contact {
-    padding-bottom: 60px;
-    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-top: 80px;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 25px;
+    margin: 20px;
 }
 .contactInnerArea {
     background-image: url(https://i2.wp.com/background4free.com/download/orange_pink_red_1856635356.jpg);
@@ -10,17 +11,6 @@
     background-position: center center;
     background-attachment: fixed;
     position: relative;
-    padding: 80px 30px;
+    padding: 40px 30px;
     text-align: center;
-}
-.formSubmissionButton {
-    position: relative;
-    background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-    background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
-    color: #ffffff;
-    border: none;
-    height: 50px;
-    border-radius: 30px;
-    padding: 0 30px;
-    font-weight: 600;
 }
