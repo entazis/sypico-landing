@@ -1,9 +1,11 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
 
 import classes from './navbar.module.css';
 
-const navbar = () => {
+export default () => {
+  const location = useLocation();
   return (
       <div className={classes.navbarArea}>
         <Navbar bg="light" expand="lg">
@@ -17,7 +19,7 @@ const navbar = () => {
           </NavDropdown>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className={['ml-auto', classes.navText]}>
+            <Nav className={['ml-auto', classes.navText]} activeKey={location.hash}>
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#services">Services</Nav.Link>
@@ -32,5 +34,3 @@ const navbar = () => {
       </div>
   );
 };
-
-export default navbar;
