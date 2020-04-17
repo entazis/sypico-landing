@@ -2,9 +2,9 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
 
-import classes from './navbar.module.css';
+import classes from './topbar.module.css';
 
-export default () => {
+export default function Topbar() {
   const location = useLocation();
   return (
       <div className={classes.navbarArea}>
