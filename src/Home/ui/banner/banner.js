@@ -12,13 +12,17 @@ function banner() {
               <div className={classes.coverText}>
                 <h1>SyPiCo</h1>
                 <p>Automate - Keep Going and Going!</p>
-                <a className="btn btn-danger" href="#contact">Get Started</a>
-                <a className="btn btn-secondary" href="#our-work">How it works</a>
+                <a className='btn btn-danger' href='#contact'>Get Started</a>
+                <a className='btn btn-secondary' href='#our-work'>How it works</a>
               </div>
             </Col>
             <Col lg={6}>
-              <img className={classes.bannerImage} alt={'SyPiCo'}
-                   src={'https://trynext-react.envytheme.com/_next/static/images/animate-banner-img1-6ff206b3106cc8caa8ffe8c01ff8ba44.jpg'}/>
+              <iframe width='560' height='315'
+                      title='Product Videó'
+                      src='https://www.youtube.com/embed/5j0RfDY1Ob8'
+                      frameBorder='0'
+                      allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+                      allowFullScreen/>
             </Col>
           </Row>
         </Container>
