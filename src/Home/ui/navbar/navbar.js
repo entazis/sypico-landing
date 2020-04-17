@@ -11,7 +11,7 @@ const navbar = () => {
             <img alt='logo' className={classes.Logo}
                 src='https://static.wixstatic.com/media/68e9b9_006908abe93a4b0bbe66315acd8bcee4~mv2_d_1200_1200_s_2.png/v1/fill/w_117,h_117,al_c,q_85,usm_0.66_1.00_0.01/logo.webp'/>
           </Navbar.Brand>
-          <NavDropdown id='language-selector-dropdown' title='Language'>
+          <NavDropdown id='language-selector-dropdown' title={<span className={classes.languageSelector}>Language</span>}>
             <NavDropdown.Item href="/en">EN</NavDropdown.Item>
             <NavDropdown.Item href="/nl">NL</NavDropdown.Item>
           </NavDropdown>
