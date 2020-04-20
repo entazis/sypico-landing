@@ -46,6 +46,7 @@ const messages = {
   contactUsName: 'Naam',
   contactUsEmail: 'Emailadres',
   contactUsMessage: 'Bericht',
+  contactUsTermsAndConditions: 'Ik ga akkoord met bovenstaande en met de Privacy Policy.',
   contactUsSubmit: 'Verstur',
   careersTitle: 'We\'re looking for new talent!',
   careersInternship: 'Internship',

@@ -33,6 +33,10 @@ function contact() {
                   <Col>
                     <label><FormattedMessage {...messages.contactUsMessage}/></label>
                     <textarea name='message' className='form-control' rows='5'/>
+                    <label>
+                      <input name='isTermsAndConditionsAccepted' type='checkbox' />
+                      <span> <FormattedMessage {...messages.contactUsTermsAndConditions}/></span>
+                    </label>
                   </Col>
                 </Row>
                 <button type='submit' className='btn btn-danger'><FormattedMessage {...messages.contactUsSubmit}/></button>

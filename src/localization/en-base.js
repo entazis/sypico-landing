@@ -181,6 +181,10 @@ const messages = {
     id: 'contactUsMessage',
     defaultMessage: 'Message',
   },
+  contactUsTermsAndConditions: {
+    id: 'contactUsTermsAndConditions',
+    defaultMessage: 'I accept terms & conditions',
+  },
   contactUsSubmit: {
     id: 'contactUsSubmit',
     defaultMessage: 'Submit',
