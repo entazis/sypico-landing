@@ -73,6 +73,126 @@ const messages = {
     id: 'topBarCareers',
     defaultMessage: 'Careers',
   },
+  bannerSubtitle: {
+    id: 'bannerSubtitle',
+    defaultMessage: 'Automate - Keep Going and Going!',
+  },
+  bannerGetStarted: {
+    id: 'bannerGetStarted',
+    defaultMessage: 'Get Started',
+  },
+  bannerHowItWorks: {
+    id: 'bannerHowItWorks',
+    defaultMessage: 'How it works',
+  },
+  servicesTitle: {
+    id: 'servicesTitle',
+    defaultMessage: 'SyPiCo Services',
+  },
+  servicesSubtitle: {
+    id: 'servicesSubtitle',
+    defaultMessage: 'Ready to get back on track and let us take care of the rest? Give us a call today and we’ll be happy to discuss where we can be of added value to you.',
+  },
+  servicesServiceDataGatheringTitle: {
+    id: 'servicesServiceDataGa',
+    defaultMessage: 'Data Gathering and Aggregation',
+  },
+  servicesServiceDataGatheringDescription: {
+    id: 'servicesServiceDataGatheringDescription',
+    defaultMessage: 'Our insights and skills combined enable us to transform your data gathering and strategies into efficient processes. We’re ready to help you automate these burdensome tasks and reduce the workload this would otherwise mean for you employees. The same work that would make them demotivated we can do in a continuous and timely manner.',
+  },
+  servicesDataAnalyticsTitle: {
+    id: 'servicesDataAnalyticsTitle',
+    defaultMessage: 'Data Analytics',
+  },
+  servicesDataAnalyticsDescription: {
+    id: 'servicesDataAnalyticsDescription',
+    defaultMessage: 'Need new insights or a fresh view on your big data? Let us guide you. Any organization can move forward with small incremental changes, but building for the future in today’s rapidly evolving environment means taking bold chances and making insightful decisions.',
+  },
+  ourWorkTitle: {
+    id: 'ourWorkTitle',
+    defaultMessage: 'Our Projects',
+  },
+  ourWorkSubtitle: {
+    id: 'ourWorkSubtitle',
+    defaultMessage: 'We help businesses automate boring repetitive tasks!',
+  },
+  ourWorkGetInTouch: {
+    id: 'ourWorkGetInTouch',
+    defaultMessage: 'Get In Touch',
+  },
+  ourWorkDataAnalyticsTitle: {
+    id: 'ourWorkDataAnalyticsTitle',
+    defaultMessage: 'Data Analytics',
+  },
+  ourWorkDataAnalyticsDescription: {
+    id: 'ourWorkDataAnalyticsDescription',
+    defaultMessage: 'It became clear that price setting in the house renting business is crucial but also rather complex as it is very dependent on season and events. We took it upon us to crunch the numbers and analyze their data in detail. Our Data Analytics resulted in a revenue increase of 10%.',
+  },
+  ourWorkAutomationToolTitle: {
+    id: 'ourWorkAutomationToolTitle',
+    defaultMessage: 'Automation tool',
+  },
+  ourWorkAutomationToolDescription: {
+    id: 'ourWorkAutomationToolDescription',
+    defaultMessage: 'Master-planning list is automatically updated every five minutes. Thanks to SyPiCo no more precious time is wasted and resources are used much more efficiently.',
+  },
+  teamTitle: {
+    id: 'teamTitle',
+    defaultMessage: 'Our Expert Team',
+  },
+  teamBusinessDeveloperTitle: {
+    id: 'teamBusinessDeveloperTitle',
+    defaultMessage: 'Business Developer',
+  },
+  teamBusinessDeveloperDescription: {
+    id: 'teamBusinessDeveloperDescription',
+    defaultMessage: 'Gabriel is in charge of the customer relations and business development.',
+  },
+  teamDataAnalystTitle: {
+    id: 'teamDataAnalystTitle',
+    defaultMessage: 'Data Analyst',
+  },
+  teamDataAnalystDescription: {
+    id: 'teamDataAnalystDescription',
+    defaultMessage: 'Robin is the analytical guy, with a clear eye for detail. He is ready to help you automate your dull and and monotonous jobs.',
+  },
+  testimonialsReadMore: {
+    id: 'testimonialsReadMore',
+    defaultMessage: 'Read more',
+  },
+  contactUsTitle: {
+    id: 'contactUsTitle',
+    defaultMessage: 'Contact Us',
+  },
+  contactUsName: {
+    id: 'contactUsName',
+    defaultMessage: 'Name',
+  },
+  contactUsEmail: {
+    id: 'contactUsEmail',
+    defaultMessage: 'Email',
+  },
+  contactUsMessage: {
+    id: 'contactUsMessage',
+    defaultMessage: 'Message',
+  },
+  contactUsSubmit: {
+    id: 'contactUsSubmit',
+    defaultMessage: 'Submit',
+  },
+  careersTitle: {
+    id: 'careersTitle',
+    defaultMessage: 'We\'re looking for new talent!',
+  },
+  careersInternship: {
+    id: 'contactUsInternship',
+    defaultMessage: 'Internship',
+  },
+  careersSoftwareDeveloper: {
+    id: 'contactSoftwareDeveloper',
+    defaultMessage: 'Software Developer',
+  },
 };
 
 export default defineMessages(messages);

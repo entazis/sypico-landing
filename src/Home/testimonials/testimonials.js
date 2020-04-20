@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-
 import classes from './testimonials.module.css';
 import {Container, Carousel, Modal, Button} from 'react-bootstrap';
+import messages from '../../localization/en-base';
+import {FormattedMessage} from 'react-intl';
 
 export default function Testimonials() {
   const [show, setShow] = useState(false);
@@ -39,7 +40,7 @@ export default function Testimonials() {
         </Container>
 
         <Button variant="danger" onClick={handleShow}>
-          Read more
+          <FormattedMessage {...messages.testimonialsReadMore}/>
         </Button>
 
         <Modal centered show={show} onHide={handleClose}>

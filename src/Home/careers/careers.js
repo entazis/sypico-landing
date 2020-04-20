@@ -1,22 +1,23 @@
 import React from 'react';
-
 import classes from './careers.module.css';
 import {Container, Row, Col, Button} from 'react-bootstrap';
 import { FaCheckDouble } from 'react-icons/all';
+import messages from '../../localization/en-base';
+import {FormattedMessage} from 'react-intl';
 
 function careers() {
   return (
       <section id='careers' className={classes.careers}>
         <Container>
           <div className={classes.sectionTitle}>
-            <h2>We're looking for new talent!</h2>
+            <h2><FormattedMessage {...messages.careersTitle}/></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <Row className="justify-content-md-center">
             <Col lg={5} sm={6}>
               <div className={classes.singleTable}>
-                <div className={classes.tableHeader}>Internship</div>
-                <div className={classes.tablePrice}>Software Developer</div>
+                <div className={classes.tableHeader}><FormattedMessage {...messages.careersInternship}/></div>
+                <div className={classes.tablePrice}><FormattedMessage {...messages.careersSoftwareDeveloper}/></div>
                 <ul className={classes.tableFeatures}>
                   <li><FaCheckDouble/> Web Development</li>
                   <li><FaCheckDouble/> Email Integration</li>

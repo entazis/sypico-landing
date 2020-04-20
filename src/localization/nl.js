@@ -8,7 +8,9 @@ const messages = {
   aboutP3: 'NL: I remember my starting job as a Tax Consultant. One of my first projects required me to perform some benchmark analyses. In part of this process it was my job to research the web in order to datamine the needed information. Unfortunately for me this was just a fancy way of saying that I had to click on 200 websites to find one certain parameter. Needless to say this job did not make feel satisfied at all. I knew I was contributing to our project but that didn’t make me feel any more valuable or happy.',
   aboutP4: 'NL: This is exactly where we, at SyPiCo, step in. We can help you to collect your needed information and to organize and analyze these date. After all, we’d love to make sure you could go to bed feeling all happy and satisfied. All you have to do is to get in touch with us and let our automation processes do the rest.',
   aboutP5: 'NL: At SyPiCo we want to keep high achievers as yourself motivated. We allow you to hand over your most boring and repetitive tasks, as we make sure that automation takes over. With our knowledge and software we can solve even the most complex issues of your organization.',
-  languageSelector: 'NL: Language'
+  languageSelector: 'NL: Language',
+
+  bannerSubtitle: 'Keep Going NL',
 };
 
 export default defineMessages(messages);

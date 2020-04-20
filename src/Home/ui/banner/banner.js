@@ -1,7 +1,8 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
-
 import classes from './banner.module.css';
+import messages from '../../../localization/en-base';
+import {FormattedMessage} from 'react-intl';
 
 function banner() {
   return (
@@ -11,9 +12,9 @@ function banner() {
             <Col lg={6}>
               <div className={classes.coverText}>
                 <h1>SyPiCo</h1>
-                <p>Automate - Keep Going and Going!</p>
-                <a className='btn btn-danger' href='#contact'>Get Started</a>
-                <a className='btn btn-secondary' href='#our-work'>How it works</a>
+                <p><FormattedMessage {...messages.bannerSubtitle}/></p>
+                <a className='btn btn-danger' href='#contact'><FormattedMessage {...messages.bannerGetStarted}/></a>
+                <a className='btn btn-secondary' href='#our-work'><FormattedMessage {...messages.bannerHowItWorks}/></a>
               </div>
             </Col>
             <Col lg={6}>

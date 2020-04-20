@@ -1,16 +1,17 @@
 import React from 'react';
 import {Container, Row, Col, Carousel} from 'react-bootstrap';
 import { FaRegCheckCircle } from 'react-icons/all';
-
 import classes from './our-work.module.css';
+import {FormattedMessage} from 'react-intl';
+import messages from '../../localization/en-base';
 
 function ourWork() {
   return (
       <section id='our-work' className={classes.ourWork}>
         <div className={classes.sectionTitle}>
-          <h2>Our Projects</h2>
-          <p>We help businesses automate boring repetitive tasks!</p>
-          <a className="btn btn-danger" href="#contact">Get In Touch</a>
+          <h2><FormattedMessage {...messages.ourWorkTitle}/></h2>
+          <p><FormattedMessage {...messages.ourWorkSubtitle}/></p>
+          <a className="btn btn-danger" href="#contact"><FormattedMessage {...messages.ourWorkGetInTouch}/></a>
         </div>
         <Carousel>
           <Carousel.Item>
@@ -22,9 +23,8 @@ function ourWork() {
                 <Col lg={6}>
                   <div className={classes.infoBlock}>
                     <div className={classes.infoHead}>
-                      <h2 className="title">Data Analytics</h2>
-                      <p>It became clear that price setting in the house renting business is crucial but also rather complex as it is very dependent on season and events.
-                        We took it upon us to crunch the numbers and analyze their data in detail. Our Data Analytics resulted in a revenue increase of 10%.</p>
+                      <h2 className="title"><FormattedMessage {...messages.ourWorkDataAnalyticsTitle}/></h2>
+                      <p><FormattedMessage {...messages.ourWorkDataAnalyticsDescription}/></p>
                     </div>
                   </div>
                   <Row>
@@ -56,8 +56,8 @@ function ourWork() {
                 <Col lg={6}>
                   <div className={classes.infoBlock}>
                     <div className={classes.infoHead}>
-                      <h2 className="title">Automation tool</h2>
-                      <p>Master-planning list is automatically updated every five minutes. Thanks to SyPiCo no more precious time is wasted and resources are used much more efficiently.</p>
+                      <h2 className="title"><FormattedMessage {...messages.ourWorkAutomationToolTitle}/></h2>
+                      <p><FormattedMessage {...messages.ourWorkAutomationToolDescription}/></p>
                     </div>
                   </div>
                   <Row>
