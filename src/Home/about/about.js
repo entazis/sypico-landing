@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './about.module.css';
 import {Container, Row, Col} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
-import messages from '../../localization/base';
+import messages from '../../localization/en-base';
 
 function about() {
   return (

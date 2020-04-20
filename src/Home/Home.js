@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Topbar from './ui/topbar/topbar';
+import TopBar from './ui/topBar/topBar';
 import Banner from './ui/banner/banner';
 import About from './about/about';
 import Services from './services/services';
@@ -18,7 +18,7 @@ function Home() {
   return (
       <div id='home' className={classes.Home}>
         <header>
-          <Topbar/>
+          <TopBar/>
           <Banner/>
         </header>
         <main>

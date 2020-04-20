@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import {BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import Cookie from 'js-cookie';
 import {IntlProvider} from 'react-intl';
-import messages_en from './localization/en';
+import messages_en from './localization/en-base';
 import messages_nl from './localization/nl';
 
 const messages = {
