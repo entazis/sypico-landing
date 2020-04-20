@@ -41,36 +41,36 @@ const messages = {
     id: 'languageSelectorNL',
     defaultMessage: 'Dutch',
   },
-  topBarHome: {
-    id: 'topBarHome',
+  navBarHome: {
+    id: 'navBarHome',
     defaultMessage: 'Home',
   },
-  topBarServices: {
-    id: 'topBarServices',
+  navBarServices: {
+    id: 'navBarServices',
     defaultMessage: 'Services',
   },
-  topBarOurWork: {
-    id: 'topBarOurWork',
+  navBarOurWork: {
+    id: 'navBarOurWork',
     defaultMessage: 'Our Work',
   },
-  topBarTeam: {
-    id: 'topBarTeam',
+  navBarTeam: {
+    id: 'navBarTeam',
     defaultMessage: 'Team',
   },
-  topBarTestimonials: {
-    id: 'topBarTestimonials',
+  navBarTestimonials: {
+    id: 'navBarTestimonials',
     defaultMessage: 'Testimonials',
   },
-  topBarAbout: {
-    id: 'topBarAbout',
+  navBarAbout: {
+    id: 'navBarAbout',
     defaultMessage: 'About',
   },
-  topBarContact: {
-    id: 'topBarContact',
+  navBarContact: {
+    id: 'navBarContact',
     defaultMessage: 'Contact',
   },
-  topBarCareers: {
-    id: 'topBarCareers',
+  navBarCareers: {
+    id: 'navBarCareers',
     defaultMessage: 'Careers',
   },
   bannerSubtitle: {
@@ -192,6 +192,18 @@ const messages = {
   careersSoftwareDeveloper: {
     id: 'contactSoftwareDeveloper',
     defaultMessage: 'Software Developer',
+  },
+  footerContactUs: {
+    id: 'footerContactUs',
+    defaultMessage: 'Contact Us',
+  },
+  footerPrivacyPolicy: {
+    id: 'footerPrivacyPolicy',
+    defaultMessage: 'Privacy Policy',
+  },
+  footerTermsAndConditions: {
+    id: 'footerTermsAndConditions',
+    defaultMessage: 'Terms &amp; Conditions',
   },
 };
 
