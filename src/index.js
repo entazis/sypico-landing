@@ -6,14 +6,17 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import Cookie from 'js-cookie';
+import ReactGA from 'react-ga';
 import {IntlProvider} from 'react-intl';
 import messages_en from './localization/en-base';
 import messages_nl from './localization/nl';
-
 const messages = {
   'en': messages_en,
   'nl': messages_nl
-}
+};
+
+ReactGA.initialize('UA-163946556-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const getLocale = () => {
   const localeFromUrl = window.location.pathname.split('/')[1];
