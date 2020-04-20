@@ -29,6 +29,10 @@ const messages = {
     id: 'aboutP5',
     defaultMessage: 'At SyPiCo we want to keep high achievers as yourself motivated. We allow you to hand over your most boring and repetitive tasks, as we make sure that automation takes over. With our knowledge and software we can solve even the most complex issues of your organization.',
   },
+  aboutP6: {
+    id: 'aboutP6',
+    defaultMessage: 'Ready to get back on track and let us take care of the rest? Give us a call today and we’ll be happy to discuss where we can be of added value to you.',
+  },
   languageSelector: {
     id: 'languageSelector',
     defaultMessage: 'Language',
@@ -94,7 +98,7 @@ const messages = {
     defaultMessage: 'Ready to get back on track and let us take care of the rest? Give us a call today and we’ll be happy to discuss where we can be of added value to you.',
   },
   servicesServiceDataGatheringTitle: {
-    id: 'servicesServiceDataGa',
+    id: 'servicesServiceDataGatheringTitle',
     defaultMessage: 'Data Gathering and Aggregation',
   },
   servicesServiceDataGatheringDescription: {
@@ -190,7 +194,7 @@ const messages = {
     defaultMessage: 'Internship',
   },
   careersSoftwareDeveloper: {
-    id: 'contactSoftwareDeveloper',
+    id: 'careersSoftwareDeveloper',
     defaultMessage: 'Software Developer',
   },
   footerContactUs: {
