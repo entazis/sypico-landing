@@ -3,7 +3,7 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(https://previews.123rf.com/images/1stchoice/1stchoice1403/1stchoice140300014/26606208-grey-background-texture.jpg);
+    background-image: url(https://www.incimages.com/uploaded_files/image/970x450/getty_509107562_2000133320009280346_351827.jpg);
     padding-top: 100px;
     padding-bottom: 100px;
     color: black;
@@ -23,7 +23,7 @@
 .quotesIcon {
     background: -webkit-gradient(linear, right bottom, left top, from(#00AEFF), to(#173156));
     background: linear-gradient(to left top, #00AEFF, #173156);
-    margin: 0 auto 35px;
+    margin: 0 auto 10px;
     width: 70px;
     height: 70px;
     border-radius: 50%;

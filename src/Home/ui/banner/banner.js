@@ -19,8 +19,8 @@ function banner() {
             </Col>
             <Col lg={6}>
               <iframe width='560' height='315'
-                      title='Product Videó'
-                      src='https://www.youtube.com/embed/5j0RfDY1Ob8'
+                      title='SyPiCo services - video'
+                      src='https://www.youtube.com/embed/Vs9k3FThNic'
                       frameBorder='0'
                       allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
                       allowFullScreen/>
