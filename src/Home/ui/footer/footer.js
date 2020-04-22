@@ -50,14 +50,14 @@ const footer = () => {
             <Col lg={3} md={6} sm={6} className='py-2'>
               <h6>Explore</h6>
               <ul className={classes.linkList}>
-                <li><a className={classes.link} href="#home"><FormattedMessage {...messages.navBarHome}/></a></li>
-                <li><a className={classes.link} href="#about"><FormattedMessage {...messages.navBarAbout}/></a></li>
-                <li><a className={classes.link} href="#services"><FormattedMessage {...messages.navBarServices}/></a></li>
-                <li><a className={classes.link} href="#team"><FormattedMessage {...messages.navBarTeam}/></a></li>
-                <li><a className={classes.link} href="#our-work"><FormattedMessage {...messages.navBarOurWork}/></a></li>
-                <li><a className={classes.link} href="#testimonials"><FormattedMessage {...messages.navBarTestimonials}/></a></li>
-                <li><a className={classes.link} href="#contact"><FormattedMessage {...messages.navBarContact}/></a></li>
-                <li><a className={classes.link} href="#careers"><FormattedMessage {...messages.navBarCareers}/></a></li>
+                <li><a className={classes.link} href="/#home"><FormattedMessage {...messages.navBarHome}/></a></li>
+                <li><a className={classes.link} href="/#about"><FormattedMessage {...messages.navBarAbout}/></a></li>
+                <li><a className={classes.link} href="/#services"><FormattedMessage {...messages.navBarServices}/></a></li>
+                <li><a className={classes.link} href="/#team"><FormattedMessage {...messages.navBarTeam}/></a></li>
+                <li><a className={classes.link} href="/#our-work"><FormattedMessage {...messages.navBarOurWork}/></a></li>
+                <li><a className={classes.link} href="/#testimonials"><FormattedMessage {...messages.navBarTestimonials}/></a></li>
+                <li><a className={classes.link} href="/#contact"><FormattedMessage {...messages.navBarContact}/></a></li>
+                <li><a className={classes.link} href="/#careers"><FormattedMessage {...messages.navBarCareers}/></a></li>
               </ul>
             </Col>
             <Col lg={3} sm={6} className='py-2'>

@@ -21,14 +21,14 @@ export default function TopBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className={['ml-auto', classes.navText]} activeKey={location.hash}>
-              <Nav.Link href="#home"><FormattedMessage {...messages.navBarHome}/></Nav.Link>
-              <Nav.Link href="#services"><FormattedMessage {...messages.navBarServices}/></Nav.Link>
-              <Nav.Link href="#our-work"><FormattedMessage {...messages.navBarOurWork}/></Nav.Link>
-              <Nav.Link href="#team"><FormattedMessage {...messages.navBarTeam}/></Nav.Link>
-              <Nav.Link href="#testimonials"><FormattedMessage {...messages.navBarTestimonials}/></Nav.Link>
-              <Nav.Link href="#about"><FormattedMessage {...messages.navBarAbout}/></Nav.Link>
-              <Nav.Link href="#contact"><FormattedMessage {...messages.navBarContact}/></Nav.Link>
-              <Nav.Link href="#careers"><FormattedMessage {...messages.navBarCareers}/></Nav.Link>
+              <Nav.Link href="/#home"><FormattedMessage {...messages.navBarHome}/></Nav.Link>
+              <Nav.Link href="/#services"><FormattedMessage {...messages.navBarServices}/></Nav.Link>
+              <Nav.Link href="/#our-work"><FormattedMessage {...messages.navBarOurWork}/></Nav.Link>
+              <Nav.Link href="/#team"><FormattedMessage {...messages.navBarTeam}/></Nav.Link>
+              <Nav.Link href="/#testimonials"><FormattedMessage {...messages.navBarTestimonials}/></Nav.Link>
+              <Nav.Link href="/#about"><FormattedMessage {...messages.navBarAbout}/></Nav.Link>
+              <Nav.Link href="/#contact"><FormattedMessage {...messages.navBarContact}/></Nav.Link>
+              <Nav.Link href="/#careers"><FormattedMessage {...messages.navBarCareers}/></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

@@ -11,7 +11,7 @@ function ourWork() {
         <div className={classes.sectionTitle}>
           <h2><FormattedMessage {...messages.ourWorkTitle}/></h2>
           <p><FormattedMessage {...messages.ourWorkSubtitle}/></p>
-          <a className="btn btn-primary" href="#contact"><FormattedMessage {...messages.ourWorkGetInTouch}/></a>
+          <a className="btn btn-primary" href="/#contact"><FormattedMessage {...messages.ourWorkGetInTouch}/></a>
         </div>
         <Carousel>
           <Carousel.Item>
