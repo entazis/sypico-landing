@@ -213,6 +213,14 @@ const messages = {
     id: 'footerTermsAndConditions',
     defaultMessage: 'Terms &amp; Conditions',
   },
+  thankYouTitle: {
+    id: 'thankYouTitle',
+    defaultMessage: 'Thank you for contacting us!'
+  },
+  thankYouSubtitle: {
+    id: 'thankYouSubtitle',
+    defaultMessage: 'We will solve your problem as soon as possible. :)'
+  }
 };
 
 export default defineMessages(messages);

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './Home/Home';
+import ThankYou from './ThankYou/ThankYou';
 import {BrowserRouter, Redirect, Route, Switch} from 'react-router-dom';
 import Cookie from 'js-cookie';
 import ReactGA from 'react-ga';
@@ -46,6 +47,7 @@ function App() {
           <BrowserRouter>
             <Switch history={history}>
               <Route path='/(en|nl)' exact component={ Home }/>
+              <Route path='/(en|nl)/thank-you' exact component={ ThankYou }/>
               <Route render={() => <Redirect to={{pathname: `/${locale}`}} />} />
             </Switch>
           </BrowserRouter>

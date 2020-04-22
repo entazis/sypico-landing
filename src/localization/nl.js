@@ -54,6 +54,8 @@ const messages = {
   footerContactUs: 'Contact Us',
   footerPrivacyPolicy: 'Privacy Policy',
   footerTermsAndConditions: 'Terms &amp; Conditions',
+  thankYouTitle: 'Thank you for contacting us!',
+  thankYouSubtitle: 'We will solve your problem as soon as possible. :)',
 };
 
 export default defineMessages(messages);
