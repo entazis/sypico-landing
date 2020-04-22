@@ -10,7 +10,7 @@ const footer = () => {
       <div className={classes.footer}>
         <Container>
           <Row>
-            <Col lg={3} sm={6}>
+            <Col lg={3} sm={6} className='py-2'>
               <div className={classes.logo}>
 
               </div>
@@ -47,8 +47,8 @@ const footer = () => {
                 </li>
               </ul>
             </Col>
-            <Col lg={3} md={6} sm={6}>
-              <h3>Explore</h3>
+            <Col lg={3} md={6} sm={6} className='py-2'>
+              <h6>Explore</h6>
               <ul className={classes.linkList}>
                 <li><a className={classes.link} href="#home"><FormattedMessage {...messages.navBarHome}/></a></li>
                 <li><a className={classes.link} href="#about"><FormattedMessage {...messages.navBarAbout}/></a></li>
@@ -60,16 +60,16 @@ const footer = () => {
                 <li><a className={classes.link} href="#careers"><FormattedMessage {...messages.navBarCareers}/></a></li>
               </ul>
             </Col>
-            <Col lg={3} sm={6}>
-              <h3>Quick Links</h3>
+            <Col lg={3} sm={6} className='py-2'>
+              <h6>Quick Links</h6>
               <ul className={classes.linkList}>
                 <li><a className={classes.link} href="#contact"><FormattedMessage {...messages.footerContactUs}/></a></li>
                 <li><a className={classes.link} href="/privacy-policy/"><FormattedMessage {...messages.footerPrivacyPolicy}/></a></li>
                 <li><a className={classes.link} href="/terms-conditions/"><FormattedMessage {...messages.footerTermsAndConditions}/></a></li>
               </ul>
             </Col>
-            <Col lg={3} sm={6}>
-              <h3>Get in Touch</h3>
+            <Col lg={3} sm={6} className='py-2'>
+              <h6>Get in Touch</h6>
               <ul className={classes.getInTouch}>
                 <li><FaHome/> Tramweglei 74, 2500 Lier</li>
                 <li><FaPhone/> +324-9442-515</li>

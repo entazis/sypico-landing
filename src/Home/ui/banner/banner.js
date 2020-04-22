@@ -13,7 +13,7 @@ function banner() {
               <div className={classes.coverText}>
                 <h1>SyPiCo</h1>
                 <p><FormattedMessage {...messages.bannerSubtitle}/></p>
-                <a className='btn btn-danger' href='#contact'><FormattedMessage {...messages.bannerGetStarted}/></a>
+                <a className='btn btn-primary' href='#contact'><FormattedMessage {...messages.bannerGetStarted}/></a>
                 <a className='btn btn-secondary' href='#our-work'><FormattedMessage {...messages.bannerHowItWorks}/></a>
               </div>
             </Col>

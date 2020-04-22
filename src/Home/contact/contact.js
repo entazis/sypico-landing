@@ -33,13 +33,13 @@ function contact() {
                   <Col>
                     <label><FormattedMessage {...messages.contactUsMessage}/></label>
                     <textarea name='message' className='form-control' rows='5'/>
-                    <label>
+                    <label className='mt-2'>
                       <input name='isTermsAndConditionsAccepted' type='checkbox' />
                       <span> <FormattedMessage {...messages.contactUsTermsAndConditions}/></span>
                     </label>
                   </Col>
                 </Row>
-                <button type='submit' className='btn btn-danger'><FormattedMessage {...messages.contactUsSubmit}/></button>
+                <button type='submit' className='btn btn-primary'><FormattedMessage {...messages.contactUsSubmit}/></button>
               </Container>
             </form>
           </div>

@@ -39,7 +39,7 @@ export default function Testimonials() {
           </div>
         </Container>
 
-        <Button variant="danger" onClick={handleShow}>
+        <Button variant='primary' onClick={handleShow}>
           <FormattedMessage {...messages.testimonialsReadMore}/>
         </Button>
 
@@ -49,7 +49,7 @@ export default function Testimonials() {
           </Modal.Header>
           <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
+            <Button variant='secondary' onClick={handleClose}>
               Close
             </Button>
           </Modal.Footer>

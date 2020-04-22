@@ -17,9 +17,7 @@
 }
 .tableHeader {
     margin-bottom: 15px;
-    font-weight: 500;
     line-height: 1.2;
-    font-size: 20px;
 }
 .tablePrice {
     color: #18181b;
@@ -28,7 +26,6 @@
     padding: 10px 40px;
     border-top: 2px dashed #8a8a8d;
     border-bottom: 2px dashed #8a8a8d;
-    font-size: 25px;
     font-weight: bold;
 }
 .tableFeatures {

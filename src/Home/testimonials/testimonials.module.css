@@ -21,13 +21,12 @@
 }
 
 .quotesIcon {
-    background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-    background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
-    margin: 0 auto;
+    background: -webkit-gradient(linear, right bottom, left top, from(#00AEFF), to(#173156));
+    background: linear-gradient(to left top, #00AEFF, #173156);
+    margin: 0 auto 35px;
     width: 70px;
     height: 70px;
     border-radius: 50%;
     text-align: center;
     line-height: 70px;
-    margin-bottom: 35px;
 }
