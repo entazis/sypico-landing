@@ -1,9 +1,9 @@
 import React from 'react';
 
-import TopBar from '../Home/ui/topBar/topBar';
-import Banner from '../Home/ui/banner/banner';
-import Footer from '../Home/ui/footer/footer';
-import GoToTop from '../Home/ui/go-to-top/go-to-top';
+import TopBar from './ui/topBar/topBar';
+import Banner from './ui/banner/banner';
+import Footer from './ui/footer/footer';
+import GoToTop from './ui/go-to-top/go-to-top';
 
 import classes from './layout.module.css';
 
